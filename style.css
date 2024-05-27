@@ -1,0 +1,112 @@
+*{
+    background-color: black;
+    color: white;
+
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/*encabezado*/
+
+.head header{
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+    transition: 0.3s;
+}
+.head header .nav{
+    margin-left: 40rem;
+    background: #fff;
+}
+.head header .nav p{
+    font-size: 3rem;
+    color: black;
+    background: #fff;
+    margin: 10px;
+}
+
+/*pantalla principal*/
+
+.head .content{
+    position: relative;
+    width: 110%;
+    display: flex;
+    align-items: center;
+    line-height: 1.2;
+}
+.head .content img{
+    width: 650px;
+    margin-top: 100px;
+    height: 650px;
+    padding: 50px;
+}
+.head .content .titulo{
+    position: relative;
+    max-width: 600px;
+    display: inline-block;
+}
+.head .content .titulo span{
+    text-transform: uppercase;
+    font-weight: 650;
+    letter-spacing: 1px;
+    font-size: 4em;
+}
+.head .content .titulo p{
+    display: inline-block;
+    margin-right: 1px;
+    margin-top: 30px;
+    color: #FE2E2E;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+/*Parte del video y sobre mi*/
+.video{
+margin-top: 50px;    
+    display:flex;
+}
+.video img{
+    width: 650px;
+    height: 350px;
+    margin-left: 50px;
+}
+.video .contenido{
+    display: block;
+    padding: 30px;
+    font-size: 1.2rem;
+}
+.video .contenido h1{
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+/*Proyectos*/
+.proyec{
+    margin-top: 50px;
+}
+.proyec h1{
+    font-size: 3.5rem;
+}
+
+
+/*Footer*/
+
+footer{
+    background: brown;
+    color: bisque;
+}
+footer p{
+    padding: 0px;
+    margin: 0px;
+    background: brown;
+}
