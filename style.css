@@ -296,7 +296,23 @@ h1{
 .contactos .cv:hover{
     opacity: 1;
 }
-
+.contactos .boton{
+    cursor: pointer;
+    background-color: #363636;
+    border: 2px ;
+    border-radius: 5px;
+    width: 99px;
+        display: block;
+        margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    position: relative;
+    transition: 0.5s;
+}
+.contactos .boton:hover{
+    transform: translateY(-10px);
+    background-color: #282828;
+}
 
 /*Footer*/
 
@@ -366,7 +382,10 @@ footer{
     text-align: center;
     margin-top: 15px;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 .contactos .input-50{
     margin: auto;
