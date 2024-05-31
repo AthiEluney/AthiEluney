@@ -17,6 +17,7 @@ body{
     background: rgb(34, 29, 29);
     padding: 20px;
     color: #fff;
+
    }
 .header-top{
     display: flex;
@@ -539,6 +540,15 @@ footer{
         border-radius: 9px;
         width: 23%;
         padding: 60px;
+    }
+}
+@media (max-width: 579px){
+    .skill{
+        margin-top: 160vh;
+        min-height: 100px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 /*Responsive para celular*/
